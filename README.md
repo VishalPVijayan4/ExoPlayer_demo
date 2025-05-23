@@ -41,40 +41,18 @@ A sample Android project demonstrating how to use [ExoPlayer](https://exoplayer.
 
 ---
 
-## 📂 Project Structure
-ExoPlayerSample/
-│
-├── data/
-│ └── VideoModel.kt # Data class for video JSON entries
-│
-├── ui/
-│ ├── MainActivity.kt # Displays video list with search
-│ └── VideoPlayerActivity.kt # Plays selected video with ExoPlayer and PiP
-│
-├── adapter/
-│ └── VideoAdapter.kt # RecyclerView adapter for video list
-│
-├── res/
-│ ├── layout/
-│ │ ├── activity_main.xml
-│ │ └── activity_video_player.xml
-│ ├── drawable/
-│ └── values/
-│ └── styles.xml
-│
-├── utils/
-│ └── DummyVideoData.kt # Contains static video JSON list
 
-🧪 Testing Tips
+
+## 🧪 Testing Tips
 Try clicking the Home button while video is playing to test PiP.
 
 Use the search bar to filter the video list in real-time.
 
 Rotate the device or use landscape mode for full-screen playback.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🙌 Contributing
+## 🙌 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss improvements or new features.
 
